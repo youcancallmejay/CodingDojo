@@ -1,0 +1,56 @@
+body{
+    width: 35%;
+    align-items: center;
+    margin: auto;
+}
+
+div{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.middle-bar{
+    justify-content: space-evenly;
+}
+
+.top-bar{
+    background-color: #009c3b;
+    padding: 10px;
+    margin: 1px 15px 15px 15px;
+}
+
+.middle-bar{
+    background-color: #ffdf00;
+    padding: 10px;
+    margin: 15px;
+}
+
+.bottom-bar{
+    background-color: #009c3b;
+    padding: 10px;
+    margin: 15px;
+}
+
+/* Image attributes */
+
+.octocat{
+    background-color: #002776;
+    height: 200px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+/* Paragraph and Header font attributes */
+
+h1{
+    text-align: center;
+    font-size: 62px;
+    margin: 20px auto 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+}

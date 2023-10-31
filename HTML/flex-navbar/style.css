@@ -1,0 +1,53 @@
+body{
+    background-color: pink;
+    margin: auto;
+    padding: 10px; 
+    width: 50%;
+}
+
+h1{
+    color: white;
+}
+
+a{
+    color: white; 
+}
+
+.nav{
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+.nav-links{
+    align-items: center;
+    display: flex;
+    gap: 5px; 
+}
+
+.nav-links li{
+    border: 1px solid pink;
+    border-radius: 2px;
+    list-style-type: none;
+    transition: background-color 1s, font-size 1s;
+}
+
+.nav-links li a:hover{
+   background-color: pink;
+   font-size: 24px;
+}
+
+a:hover{
+    color: black;
+}
+
+button{
+    background-color: #4267B2;
+    box-shadow: 3px 1px 1px;
+    color: white;
+    pointer-events: none;
+}
+
