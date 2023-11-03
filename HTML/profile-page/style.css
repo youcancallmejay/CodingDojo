@@ -1,19 +1,190 @@
+/*navigation font attributes*/
+
+.nav h1{
+    color: white;
+}
+
+.nav-links a{
+    color: white; 
+}
+
+/*navigation attributes*/
+
+.nav{
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    /*justify-content: space-between;*/  
+    padding-right: 10px; 
+}
+
+.nav-links ul{   
+    align-items: center;
+    display: flex;
+    gap: 25px; 
+}
+
+.nav-profile{
+    margin-left: auto;
+}
 
 
-/*div attri*/
-.flex-parent{
+.btn-container{
+    margin-left: auto;
+    padding-right: 100px;
+}
+
+.nav-links li{
+    list-style-type: none;
+}
+
+
+.btn{
+    background-color: #0072b1;
+    color: white;
+}
+
+
+
+
+.main-page{
+    display: flex;
+}
+
+.center-column{
+    margin: 0px 10px 0px auto;
+}
+
+.side-column{
+    margin: 0px auto 0px 10px;
+}
+
+
+/*education section attributes*/
+.education-parent{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 20px auto;
+}
+
+.education-section{
+    width: 500px;
+    border: 3px solid grey;
+    border-radius: 3px;
+}
+
+.education-top{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 55px;
+    padding-left: 15px;
+}
+
+.education-top h3{
+    color: white;
+}
+
+.education-info{
+    padding: 10px;
+}
+
+#school-name{
+    font-size: 24px;
+}
+#school-date{
+    font-size: 16px;
+    color: grey;
+}
+#school-info{
+    font-size: 16px;
+}
+
+/*connection requests section attributes*/
+
+.connection-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.connection-section{
+    width: 250px;
+    border: 3px solid grey;
+    border-radius: 3px;
+}
+
+.connection-top{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 55px;
+    padding-left: 15px;
+}
+
+.connection-top h3{
+    color: white;
+}
+
+.view-more{
+    border-top: 3px solid grey;
+    padding: 5px;
+}
+
+#request-circle{
+    background-color:grey;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    margin-right: 5px;
+}
+
+#request-number{
+    margin-left: 5px;
+}
+
+#connection-number{
+    margin-left: 5px;
+}
+
+#current-connections{
+    height: 25px;
+    width: 50px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#connection-response{
+    height: 20px;
+    width: 20px;
+}
+/* WORKING HERE ON THE USER CHOICE BUTTONS */
+.usr-choice{
+    display: flex;
+    margin-right: 10px;
+}
+
+/*profile name attributes*/
+.profile-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
 
 }
 
 .profile{
-    width: 800px;
+    width: 500px;
     border: 3px solid grey;
     border-radius: 3px;
 }
+
 
 .top-bar{
     background-color:#0072b1;
@@ -29,8 +200,7 @@
 }
 
 
-/*font attributes*/
-
+/*profile section font attributes*/
 #location{
     font-size: 20px;
     font-weight: bolder;
@@ -45,7 +215,12 @@ p{
     margin: 5px;
 }
 
-/*image attributes */
+/*profile image attributes */
+#usr-picture{
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
 
 #gear-icon{
     height: 15px;
