@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="nav-main">
+        <div class="nav">
+            <p id="site-title">DojoWeather</p>
+            <div class="cities">
+                <a href="#" class="city-tag" onclick="usrAlert()">Austin</a>
+                <a href="#" class="city-tag" onclick="usrAlert()">Houston</a>
+                <a href="#" class="city-tag" onclick="usrAlert()">Dallas</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="current-city-container">
+            <h1>San Jose</h1>
+            <div class="temperature-convert">
+                <p>show temperature in</p>
+                <select>
+                    <option>°F</option>
+                    <option>°C</option>
+                </select>
+            </div>
+        </div>        
+
+        <hr class="solid">
+
+
+        <div class="forecast-container">
+            <div class="daily-weather-container">
+                <div class="daily-weather">
+                    <h2>Today</h2>
+                    <img class="weather-img" src="assets/some_rain.png" alt="some rain">
+                    <p class="weather-conditions"> some rain</p>
+                    <div class="highlow">
+                        <p class="weather-degrees high-temp">24°</p>
+                        <p class="weather-degrees low-temp">18°</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="daily-weather-container">
+                <div class="daily-weather">
+                    <h2>Tomorrow</h2>
+                    <img class="weather-img" src="assets/some_sun.png" alt="some rain">
+                    <p class="weather-conditions">some sun</p>
+                    <div class="highlow">
+                        <p class="weather-degrees high-temp">24°</p>
+                        <p class="weather-degrees low-temp">18°</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="daily-weather-container">
+                <div class="daily-weather">
+                    <h2>Friday</h2>
+                    <img class="weather-img" src="assets/some_clouds.png" alt="some rain">
+                    <p class="weather-conditions">some clouds</p>
+                    <div class="highlow">
+                        <p class="weather-degrees high-temp">24°</p>
+                        <p class="weather-degrees low-temp">18°</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="daily-weather-container">
+                <div class="daily-weather">
+                    <h2>Saturday</h2>
+                    <img class="weather-img" src="assets/some_sun.png" alt="some rain">
+                    <p class="weather-conditions">some sun</p>
+                    <div class="highlow">
+                        <p class="weather-degrees high-temp">24°</p>
+                        <p class="weather-degrees low-temp">18°</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="cookie-alert-container">
+            <div class="cookie-alert">
+                <img class="cookie-img" src="assets/cookie.png" alt="cookie-img">
+                <div class="cookie-message">
+                    <p id="stop-cookie">Stop! Cookie time</p>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. Read more...</p>
+                </div>
+                <div>
+                    <button class="cookie-btn" onclick="removeCookie()">I Accept</button>
+                </div>
+            </div>               
+        </div>
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

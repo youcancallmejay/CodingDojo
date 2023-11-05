@@ -1,0 +1,152 @@
+.nav-main{
+    background-color: skyblue;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.nav{
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: start;
+}
+
+.cities{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+
+}
+
+.current-city-container{
+    display: flex;
+    justify-content: start;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.temperature-convert{
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+}
+
+.temperature-convert p{
+    margin-right: 10px;
+}
+
+.forecast-container{
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: space-between;
+}
+
+.daily-weather-container{
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 3px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.daily-weather h2{
+    text-align: center;
+}
+
+.weather-conditions{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.highlow{
+    display: flex;
+    justify-content: space-between;    
+}
+
+
+.cookie-alert-container{
+    background-color: lightgray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+    left: 35%;
+    width: 500px;
+}
+
+.cookie-alert{
+    align-items: center;
+    display: flex;
+}
+
+.cookie-message{
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-btn{
+    height: 30px;
+    width: 100px;
+    background-color: skyblue;
+}
+
+
+#stop-cookie{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cookie-message p{
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+hr{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid black;
+}
+
+
+.high-temp{
+    color: red;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.low-temp{
+    color: blue;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.cookie-img{
+    height: 75px;
+    width: 75px;
+}
+
+.weather-img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+
+.cities a{
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    text-decoration: none 
+}
+
+
+#site-title{
+    font-size: 32px;
+}
